@@ -1,5 +1,5 @@
 <html>
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los 5 nichos de la programación mejor pagados - Blog Cursim</title>
@@ -16,32 +16,32 @@
             --background-color: #f9f9f9;
             --white: #ffffff;
         }
-        
+
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
-        
+
         body {
             font-family: 'Poppins', sans-serif;
             line-height: 1.6;
             color: var(--text-color);
             background-color: var(--background-color);
         }
-        
+
         h1, h2, h3 {
             font-family: 'Merriweather', serif;
             color: var(--secondary-color);
         }
-        
+
         .container {
             width: 90%;
             max-width: 800px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        
+
         header {
             background-color: var(--white);
             box-shadow: 0 2px 10px rgba(0,0,0,0.03);
@@ -51,14 +51,14 @@
             z-index: 1000;
             transition: top 0.3s;
         }
-        
+
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 1rem 0;
         }
-        
+
         .logo {
             font-size: 1.8rem;
             font-weight: 700;
@@ -66,11 +66,11 @@
             text-decoration: none;
             transition: color 0.3s ease;
         }
-        
+
         .logo:hover {
             color: var(--secondary-color);
         }
-        
+
         nav ul {
             list-style-type: none;
             display: flex;
@@ -84,11 +84,11 @@
             transition: color 0.3s ease;
             font-size: 1rem;
         }
-        
+
         nav ul li a:hover {
             color: var(--accent-color);
         }
-        
+
         .menu-toggle {
             display: none;
             background: none;
@@ -97,12 +97,12 @@
             cursor: pointer;
             color: var(--primary-color);
         }
-        
+
         main {
             margin-top: 100px;
             padding: 2rem 0;
         }
-        
+
         .post-content {
             background-color: var(--white);
             padding: 3rem;
@@ -111,7 +111,7 @@
             font-size: 1.05rem;
             line-height: 1.9;
         }
-        
+
         .post-content img {
             max-width: 100%;
             height: auto;
@@ -119,12 +119,12 @@
             margin: 2rem 0;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
         }
-        
+
         .post-content p {
             margin-bottom: 1.8rem;
             text-align: flex;
         }
-        
+
         .post-content h1 {
             font-size: 2.8rem;
             margin-bottom: 2rem;
@@ -143,11 +143,11 @@
             margin-bottom: 1.8rem;
             text-align: flex;
         }
-        
+
         .post-content li {
             margin-bottom: 0.5rem;
         }
-        
+
         footer {
             background-color: var(--primary-color);
             color: var(--white);
@@ -226,6 +226,86 @@
                 font-size: 1rem;
             }
         }
+
+        .niche-card {
+            background-color: #f0f8ff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .niche-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .niche-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .difficulty-meter {
+            background-color: #e0e0e0;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        .difficulty-level {
+            height: 100%;
+            background-color: var(--accent-color);
+            transition: width 0.5s ease-out;
+        }
+
+        .income-potential {
+            font-weight: bold;
+            color: #2ecc71;
+        }
+
+        #quiz-container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 3rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #quiz-container h3 {
+            margin-bottom: 1rem;
+        }
+
+        #quiz-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        #quiz-form input[type="radio"] {
+            margin-right: 0.5rem;
+        }
+
+        #submit-quiz {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        #submit-quiz:hover {
+            background-color: #2980b9;
+        }
+
+        #quiz-result {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
@@ -262,35 +342,55 @@
                 
                 <p>La programación se ha convertido en una de las habilidades más demandadas en el mercado laboral actual. Con una amplia gama de especializaciones disponibles, puede resultar abrumador elegir el camino correcto. En este artículo, exploraremos los cinco nichos de programación más lucrativos, ordenados por su potencial de ingresos y el nivel de dificultad para adentrarse en ellos.</p>
 
-                <h2>1. Ciberseguridad</h2>
-                <ul>
-                    <li><strong>Potencial de ingresos:</strong> Muy alto. La ciberseguridad es una preocupación constante para empresas y gobiernos.</li>
-                    <li><strong>Dificultad:</strong> Media-Alta. Requiere conocimientos en redes, sistemas operativos, lenguajes de scripting y una comprensión profunda de las amenazas cibernéticas.</li>
-                </ul>
+                <div class="niche-card">
+                    <h3>1. Ciberseguridad</h3>
+                    <p><strong>Potencial de ingresos:</strong> <span class="income-potential">Muy alto</span></p>
+                    <p>La ciberseguridad es una preocupación constante para empresas y gobiernos.</p>
+                    <p><strong>Dificultad:</strong> Media-Alta. Requiere conocimientos en redes, sistemas operativos, lenguajes de scripting y una comprensión profunda de las amenazas cibernéticas.</p>
+                    <div class="difficulty-meter">
+                        <div class="difficulty-level" style="width: 80%;"></div>
+                    </div>
+                </div>
 
-                <h2>2. Desarrollo Backend</h2>
-                <ul>
-                    <li><strong>Potencial de ingresos:</strong> Alto. Los desarrolladores backend son fundamentales para construir la infraestructura de las aplicaciones web.</li>
-                    <li><strong>Dificultad:</strong> Media. Requiere conocimientos en lenguajes como Node.js, Python (Django o Flask), Ruby on Rails, o Java (Spring).</li>
-                </ul>
+                <div class="niche-card">
+                    <h3>2. Desarrollo Backend</h3>
+                    <p><strong>Potencial de ingresos:</strong> <span class="income-potential">Alto</span></p>
+                    <p>Los desarrolladores backend son fundamentales para construir la infraestructura de las aplicaciones web.</p>
+                    <p><strong>Dificultad:</strong> Media. Requiere conocimientos en lenguajes como Node.js, Python (Django o Flask), Ruby on Rails, o Java (Spring).</p>
+                    <div class="difficulty-meter">
+                        <div class="difficulty-level" style="width: 60%;"></div>
+                    </div>
+                </div>
 
-                <h2>3. Desarrollo de Aplicaciones Móviles</h2>
-                <ul>
-                    <li><strong>Potencial de ingresos:</strong> Alto. Con la proliferación de smartphones, la demanda de aplicaciones móviles sigue creciendo.</li>
-                    <li><strong>Dificultad:</strong> Media. Requiere conocimientos en lenguajes como Swift (iOS) o Kotlin (Android), así como experiencia en diseño de interfaces de usuario.</li>
-                </ul>
+                <div class="niche-card">
+                    <h3>3. Desarrollo de Aplicaciones Móviles</h3>
+                    <p><strong>Potencial de ingresos:</strong> <span class="income-potential">Alto</span></p>
+                    <p>Con la proliferación de smartphones, la demanda de aplicaciones móviles sigue creciendo.</p>
+                    <p><strong>Dificultad:</strong> Media. Requiere conocimientos en lenguajes como Swift (iOS) o Kotlin (Android), así como experiencia en diseño de interfaces de usuario.</p>
+                    <div class="difficulty-meter">
+                        <div class="difficulty-level" style="width: 65%;"></div>
+                    </div>
+                </div>
 
-                <h2>4. Inteligencia Artificial y Machine Learning</h2>
-                <ul>
-                    <li><strong>Potencial de ingresos:</strong> Muy alto. La IA está revolucionando industrias enteras, desde la salud hasta las finanzas.</li>
-                    <li><strong>Dificultad:</strong> Alta. Requiere una base sólida en matemáticas, estadística y programación, así como un profundo conocimiento de frameworks como TensorFlow y PyTorch.</li>
-                </ul>
+                <div class="niche-card">
+                    <h3>4. Inteligencia Artificial y Machine Learning</h3>
+                    <p><strong>Potencial de ingresos:</strong> <span class="income-potential">Muy alto</span></p>
+                    <p>La IA está revolucionando industrias enteras, desde la salud hasta las finanzas.</p>
+                    <p><strong>Dificultad:</strong> Alta. Requiere una base sólida en matemáticas, estadística y programación, así como un profundo conocimiento de frameworks como TensorFlow y PyTorch.</p>
+                    <div class="difficulty-meter">
+                        <div class="difficulty-level" style="width: 90%;"></div>
+                    </div>
+                </div>
 
-                <h2>5. Desarrollo de Juegos</h2>
-                <ul>
-                    <li><strong>Potencial de ingresos:</strong> Alto. Los juegos móviles y de consola generan miles de millones de dólares al año.</li>
-                    <li><strong>Dificultad:</strong> Alta. Requiere conocimientos sólidos en matemáticas, física, algoritmos y el uso de motores de juego como Unity o Unreal Engine. Además, es un campo altamente competitivo.</li>
-                </ul>
+                <div class="niche-card">
+                    <h3>5. Desarrollo de Juegos</h3>
+                    <p><strong>Potencial de ingresos:</strong> <span class="income-potential">Alto</span></p>
+                    <p>Los juegos móviles y de consola generan miles de millones de dólares al año.</p>
+                    <p><strong>Dificultad:</strong> Alta. Requiere conocimientos sólidos en matemáticas, física, algoritmos y el uso de motores de juego como Unity o Unreal Engine. Además, es un campo altamente competitivo.</p>
+                    <div class="difficulty-meter">
+                        <div class="difficulty-level" style="width: 85%;"></div>
+                    </div>
+                </div>
 
                 <h2>¿Qué Nicho es el Adecuado para Ti?</h2>
                 <p>La elección del nicho ideal depende de tus intereses, habilidades y objetivos profesionales. Considera los siguientes factores:</p>
@@ -316,6 +416,29 @@
 
                 <h2>¿Te interesa la programación?</h2>
                 <p>En Cursim tenemos todos los cursos que necesitas para que empieces tu camino de programador. ¿Qué esperas? Entra aquí para ver nuestros cursos 👉 <a href="https://cursim2024.github.io/Inicio/cursos">Ver cursos</a>.</p>
+
+                <div id="quiz-container">
+                    <h3>¿Cuál nicho de programación es ideal para ti?</h3>
+                    <form id="quiz-form">
+                        <label>
+                            <input type="radio" name="niche" value="ciberseguridad"> Me interesa la seguridad y protección de datos
+                        </label>
+                        <label>
+                            <input type="radio" name="niche" value="backend"> Disfruto trabajando con servidores y bases de datos
+                        </label>
+                        <label>
+                            <input type="radio" name="niche" value="movil"> Me apasiona crear apps para smartphones
+                        </label>
+                        <label>
+                            <input type="radio" name="niche" value="ia"> Me fascina la inteligencia artificial y el análisis de datos
+                        </label>
+                        <label>
+                            <input type="radio" name="niche" value="juegos"> Sueño con crear videojuegos innovadores
+                        </label>
+                        <button type="button" id="submit-quiz">Descubre tu nicho ideal</button>
+                    </form>
+                    <p id="quiz-result"></p>
+                </div>
             </div>
         </article>
     </main>
@@ -356,6 +479,37 @@
             const isOutsideMenu = !nav.contains(e.target) && !menuToggle.contains(e.target);
             if (isOutsideMenu && nav.classList.contains('active')) {
                 nav.classList.remove('active');
+            }
+        });
+
+        // Quiz functionality
+        document.getElementById('submit-quiz').addEventListener('click', function() {
+            const form = document.getElementById('quiz-form');
+            const result = document.getElementById('quiz-result');
+            const selectedNiche = form.querySelector('input[name="niche"]:checked');
+
+            if (selectedNiche) {
+                let nicheResult = '';
+                switch (selectedNiche.value) {
+                    case 'ciberseguridad':
+                        nicheResult = 'Ciberseguridad parece ser tu nicho ideal. ¡Tienes un futuro prometedor protegiendo sistemas y datos!';
+                        break;
+                    case 'backend':
+                        nicheResult = 'El desarrollo Backend se ajusta a tus intereses. ¡Serás el arquitecto detrás de grandes aplicaciones!';
+                        break;
+                    case 'movil':
+                        nicheResult = 'El desarrollo de aplicaciones móviles es perfecto para ti. ¡Tus apps estarán en millones de dispositivos!';
+                        break;
+                    case 'ia':
+                        nicheResult = 'La Inteligencia Artificial y Machine Learning son tu camino. ¡Estarás a la vanguardia de la tecnología!';
+                        break;
+                    case 'juegos':
+                        nicheResult = 'El desarrollo de juegos es tu destino. ¡Prepárate para crear mundos virtuales asombrosos!';
+                        break;
+                }
+                result.textContent = nicheResult;
+            } else {
+                result.textContent = 'Por favor, selecciona una opción para descubrir tu nicho ideal.';
             }
         });
     </script>
