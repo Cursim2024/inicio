@@ -37,7 +37,7 @@
                 title: "Los 5 nichos de la programación mejor pagados",
                 excerpt: "Descubre cuáles son las áreas de la programación con mayor demanda y mejores salarios en la actualidad.",
                 image: "https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg",
-                link: "https://cursim2024.github.io/Inicio/blog/los-5-nichos-de-la-programacion-mejor-pagados"
+                link: "https://cursim2024.github.io/inicio/blog/los-5-nichos-de-la-programacion-mejor-pagados"
             },
         ];
 
